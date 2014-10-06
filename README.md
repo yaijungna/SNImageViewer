@@ -3,8 +3,8 @@ SNImageViewer
 
 Screenshots
 ===========
-<img src="https://raw.githubusercontent.com/NarekSafaryan/SNImageViewer/master/SNImageViewerDemo/screenshot.png" width="400" height="568">
-<img src="https://raw.githubusercontent.com/NarekSafaryan/SNImageViewer/master/SNImageViewerDemo/SNImageViewer.gif" alt="SNImageViewer Screenshot" width="320" height="568" />
+<img src="https://raw.githubusercontent.com/NarekSafaryan/SNImageViewer/master/SNImageViewerDemo/screenshot.png" width="320" height="568">
+<img src="https://raw.githubusercontent.com/NarekSafaryan/SNImageViewer/master/SNImageViewerDemo/SNImageViewer.gif?2" alt="SNImageViewer Screenshot" width="320" height="568" />
 
 How to use
 ===========
