@@ -1,16 +1,15 @@
 SNImageViewer
 =============
 
-Simple iOS photo browser
-===========
 Screenshots
-
-<img src="https://raw.githubusercontent.com/NarekSafaryan/SNImageViewer/master/SNImageViewerDemo/screenshot.png" width=320>
-
 ===========
-How to use
+<img src="https://raw.githubusercontent.com/NarekSafaryan/SNImageViewer/master/SNImageViewerDemo/screenshot.png" width=320>
+<img src="https://raw.githubusercontent.com/NarekSafaryan/SNImageViewer/master/SNImageViewerDemo/SNImageViewer.gif" alt="SNImageViewer Screenshot" width="320" height="568" />
 
-1.Import SNImageViewer.h 
+How to use
+===========
+
+1.Import SNImageViewer.h     																				
 2.Implement SNImageViewerDatasource methods:
 
 	1)- (NSInteger)numberOfImagesInImageViewer:(SNImageViewerController *)imageViewer
@@ -27,9 +26,8 @@ How to use
 	imageViewerController.delegate = self;
 	[_imageView setupImageViewer:imageViewerController]; 
 
-
-===========
 Licence
+===========
 
 The MIT License (MIT)
 

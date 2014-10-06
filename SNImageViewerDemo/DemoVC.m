@@ -10,7 +10,7 @@
 #import "SNImageViewer.h"
 
 @interface DemoVC ()<SNImageViewerDatasource, SNImageViewerDelegate>{
-    SNImageViewerController *imageViewerController;
+//    SNImageViewerController *imageViewerController;
 }
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
@@ -29,7 +29,7 @@
 
 - (void)handleTap:(UITapGestureRecognizer *)tap
 {
-    imageViewerController = [[SNImageViewerController alloc] init];
+    SNImageViewerController *imageViewerController = [[SNImageViewerController alloc] init];
     imageViewerController.datasource = self;
     imageViewerController.delegate = self;
     [self.imageView setupImageViewer:imageViewerController];
